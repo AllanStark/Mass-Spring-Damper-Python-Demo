@@ -10,6 +10,7 @@ Turning this into state space gives
 q_dot= Aq+Bu
 y=Cq+Du
 
+
 k = 100*newtons/meters
 m = 1*kg
 damping_ratio = 0.1
@@ -17,7 +18,13 @@ omega_n = np.sqrt(k/m)
 c = zeta*2*np.sqrt(m*k)
 
 A = [[0, 1], [-k/m, -c/m]]
+
+
 B = [[0], [1]]
-C = [[1, 0]]         This will chose displacement as our output
+
+
+C = [[1, 0]]         This will cho0se displacement as our output
+
+
 D = 0
 
