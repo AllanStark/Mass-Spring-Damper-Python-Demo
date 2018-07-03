@@ -23,7 +23,7 @@ A = [[0, 1], [-k/m, -c/m]]
 B = [[0], [1]]
 
 
-C = [[1, 0]]         This will cho0se displacement as our output
+C = [[1, 0]]         This will choose displacement as our output
 
 
 D = 0
