@@ -1,9 +1,9 @@
 # Mass-Spring-Damper-Python-Demo
-Solves for the response of a Damped mass and spring system under a sinusoidal  input, the example it solves can be found
+This code solves for the response of a dDamped mass and spring system under a sinusoidal  input. The example it solves can be found
 at  https://www.crcpress.com/downloads/K11527/MATLAB%20Resources.pdf
 
 
-System mode: Mass connected to rigid ground via a spring and damper, a force input is fo*sin(wt)
+System mode: Mass connected to a rigid ground via a spring and damper, the force input is fo*sin(wt)
 
 
 Turning this into state space gives 
